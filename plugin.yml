@@ -1,0 +1,22 @@
+name: MagicSystem
+version: 1.0.0
+main: com.yourplugin.magic.core.MagicPlugin
+api-version: 1.21
+authors: [YourName]
+commands:
+  magic:
+    description: Открыть меню магии
+    usage: /magic
+  cast:
+    description: Произнести заклинание
+    usage: /cast <spellname>
+  edited:
+    description: Открыть редактор заклинаний
+    usage: /edited
+permissions:
+  magic.use:
+    description: Разрешение использовать магию
+    default: true
+  magic.admin:
+    description: Административные права магии
+    default: op
